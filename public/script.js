@@ -79,6 +79,7 @@ document.getElementById('searchButton').addEventListener('click', () => {
     ).join('');
     listHtml += `</ul>`;
   
+    
     container.innerHTML = listHtml;
     //container.style.display = 'block';
   
